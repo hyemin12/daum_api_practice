@@ -5,7 +5,7 @@
 - [카카오지도](#카카오지도)
 - []()
 
-## #카카오 지도
+## #카카오지도
 
 1. 카카오 개발자 가입 (개발자 등록 및 앱 생성)<br>
    [https://apis.map.kakao.com/](https://apis.map.kakao.com/)
@@ -65,3 +65,8 @@ navigator.geolocation.getCurrentPosition((pos) => {
   var map = new kakao.maps.Map(container, options);
 });
 ```
+
+<br>
+
+> 참고
+> [참고사이트](https://inpa.tistory.com/entry/JS-%F0%9F%93%9A-Geolocation-API%EB%A1%9C-%F0%9F%97%BA%EF%B8%8F-%EC%9C%84%EB%8F%84-%EA%B2%BD%EB%8F%84-%EC%96%BB%EA%B3%A0-%E2%9B%85-%EB%82%A0%EC%94%A8-%EC%98%A8%EB%8F%84-%EC%A0%95%EB%B3%B4%EB%A5%BC-%EC%96%BB%EC%96%B4%EC%98%A4%EA%B8%B0)
