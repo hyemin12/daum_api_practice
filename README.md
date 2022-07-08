@@ -47,3 +47,21 @@ var options = {
 //지도 생성
 var map = new kakao.maps.Map(container, options);
 ```
+
+6. 현재 위치를 기준으로 지도 가져오기
+
+```js
+// 현재 위치 정보 가져오기
+navigator.geolocation.getCurrentPosition((pos) => {
+  // 위도, 경도
+  const x = pos.coords.latitude;
+  const y = pos.coords.longitude;
+
+  var options = {
+    center: new kakao.maps.LatLng(x, y),
+    level: 3,
+  };
+
+  var map = new kakao.maps.Map(container, options);
+});
+```
